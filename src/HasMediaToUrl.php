@@ -32,7 +32,7 @@ trait HasMediaToUrl
         $result = [];
         foreach ($this->attributes as $key => $attribute)
         {
-            $result[$key]= $this->getAttributeValue($key);
+            $result[$key]= $this->getAttributeValueWithMediaUrl($key);
         }
         return $result;
     }
