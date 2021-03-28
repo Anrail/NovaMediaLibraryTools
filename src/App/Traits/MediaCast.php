@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/Anrail/NovaMediaLibraryTools/blob/main/LICENSE)
  */
 
-namespace App\Casts;
+namespace Anrail\NovaMediaLibraryTools\Traits;
 
 
 use Illuminate\Support\Facades\App;
