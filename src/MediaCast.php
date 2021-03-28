@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/Anrail/NovaMediaLibraryTools/blob/main/LICENSE)
  */
 
-namespace Anrail\NovaMediaLibraryTools;
+namespace Anrail\Tool;
 
 
 use Illuminate\Support\Facades\App;
