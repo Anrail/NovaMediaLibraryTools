@@ -1,12 +1,12 @@
 <?php
-
 /**
  * HasMediaToUrl v1.0.0 (https://github.com/Anrail/NovaMediaLibraryTools)
  * Copyright 2021 Anrail (https://github.com/Anrail/NovaMediaLibraryTools/graphs/contributors)
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/Anrail/NovaMediaLibraryTools/blob/main/LICENSE)
  */
 
-namespace Anrail\NovaMediaLibraryTools;
+namespace App\Casts;
+
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
@@ -45,9 +45,8 @@ trait HasMediaToUrl
      *
      */
 
-    public function getAttributeValue($key)
+    public function getAttributeValueWithMediaUrl($key)
     {
-
         // check, is HasTranslationsTrait
         if ($this->isHasTranslationsTrait())
         {
@@ -352,3 +351,4 @@ trait HasMediaToUrl
     }
 
 }
+
